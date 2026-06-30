@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 # Set your Instagram username
-instagram_username = 'ksimmonssmith'
+instagram_username = 'jaydendoesarts'
 
 # Set up headless options for cloud environments (or background local running)
 chrome_options = Options()
