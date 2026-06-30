@@ -1,4 +1,4 @@
-name: Second bot
+name: Run Instagram Follower Bot Daily
 
 on:
   schedule:
