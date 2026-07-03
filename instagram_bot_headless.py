@@ -49,8 +49,8 @@ try:
         
         quantity_input.send_keys(Keys.CONTROL + "a")  # Select all existing text
         quantity_input.send_keys(Keys.BACKSPACE)      # Clear it
-        quantity_input.send_keys('100')
-        print("Quantity successfully set to 100.")
+        quantity_input.send_keys('50')
+        print("Quantity successfully set to 50.")
     except Exception:
         print("Quantity field not found or not required, proceeding directly to submit...")
 
@@ -68,8 +68,8 @@ try:
     # Using JS click to bypass SVG overlays or element blocking issues
     driver.execute_script("arguments[0].click();", start_button)
 
-    print("\nSuccessfully clicked! Waiting out the 6-minute timer process...")
-    time.sleep(360)
+    print("\nSuccessfully clicked! Waiting out the 11-minute timer process...")
+    time.sleep(660)
 
 except Exception as e:
     print(f"\nAn error occurred during execution: {e}")
